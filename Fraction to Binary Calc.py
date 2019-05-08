@@ -4,7 +4,7 @@ Created on Fri Apr 19 12:03:34 2019
 
 @author: sytan
 """
-
+#Calculator to convert fractions to binary form
 x = float(input('Enter a decimal number between 0 and 1: '))
 
 p = 0

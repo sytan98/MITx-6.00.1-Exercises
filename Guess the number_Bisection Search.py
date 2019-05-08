@@ -4,10 +4,14 @@ Created on Fri Apr 19 10:01:48 2019
 
 @author: sytan
 """
-
+#Obtain user input for Bisection Search
 Number = input('Please think of a number between 0 and 100!')
+
+#Set limits 
 low = 0
 high = 100
+
+#Set guess to be in the middle of limits
 guess = (low + high)/2
 
 while guess != Number:
