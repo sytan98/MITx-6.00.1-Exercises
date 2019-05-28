@@ -12,7 +12,7 @@ All disks, except the one being moved, must be on a peg.
 """
 
 def printMove(fr, to):
-    print('move one piece from ' + str(fr) + ' to ' + str(to))
+    print('Move one piece from position ' + str(fr) + ' to position ' + str(to))
 
 #Resursion to 
 def Towers(n, fr, to, spare):
@@ -25,8 +25,8 @@ def Towers(n, fr, to, spare):
 
 #Getting input from user
 n, fr, to, spare = input('Please key in your number of stack, followed by \
-                             position of source, position of destination, \
-                             postion of spare, separated by commas: ').split(",")
+                         position of source, position of destination, \
+                         postion of spare, separated by commas: ').split(",")
 
 Towers(int(n), int(fr), int(to), int(spare))
 
